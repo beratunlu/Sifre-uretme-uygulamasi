@@ -11,7 +11,7 @@ def pass_uzunlugu(size):
         
  
     
-    generate_pass = "{}".join(random.choice( string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation)   
+    generate_pass = "".join(random.choice( string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation)   
     for n in range(size)) 
                             
     return generate_pass 
